@@ -1,0 +1,10 @@
+{
+  "name": "cucumber-math",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx cucumber-js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.0"
+  }
+}
