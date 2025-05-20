@@ -37,7 +37,7 @@ This project includes HTML reporting for better visualization of test results:
 
 - **Local Reports**: Run `npm run test:report` to generate HTML reports locally
 - **GitHub Pages**: Test reports are automatically published to GitHub Pages when pushing to main
-- **Report URL**: https://YOUR_USERNAME.github.io/cucumber-math/cucumber-report.html
+- **Report URL**: https://daminebenq.github.io/cucumber-math/cucumber-report.html
 
 ## 📄 Project Structure
 
