@@ -2,9 +2,21 @@
   "name": "cucumber-math",
   "version": "1.0.0",
   "scripts": {
-    "test": "npx cucumber-js"
+    "test": "npx cucumber-js",
+    "test:report": "npx cucumber-js --format html:reports/cucumber-report.html --format summary && node scripts/report-logger.js",
+    "build:docs": "mkdir -p docs && cp -r reports/* docs/",
+    "deploy": "npm run test:report && npm run build:docs && echo 'Report ready for GitHub Pages deployment'"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^9.0.0"
-  }
+  },
+  "description": "A demonstration of BDD testing with Cucumber.js",
+  "keywords": [
+    "cucumber",
+    "bdd",
+    "testing",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT"
 }
