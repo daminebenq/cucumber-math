@@ -45,5 +45,5 @@ Then('I should have {int} {word} left', function (expected, vegetable) {
 
 // Assert number of prepared salads
 Then('I should have {int} salad ready', function (expected) {
-  assert.strictEqual(inventory.salad || 0, expected);
+  assert.strictEqual(inventory.salad, expected);
 });

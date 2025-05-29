@@ -9,7 +9,7 @@ Feature: Dynamic Cucumber Mathematics
       | vegetable | initial | consumed | remaining | suffix |
       | cucumber  | 5       | 4        | 1         |        |
       | carrot    | 10      | 12       | -2        | s      |
-      | tomato    | 8       | 3        | 5         | s      |
+      | tomato    | 8       | 3        | 5         | es     |
       | lettuce   | 3       | 2        | 1         |        |
 
   Scenario Outline: Let's make different salads!
